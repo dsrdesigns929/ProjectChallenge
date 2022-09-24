@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (min-width:969px) and (max-width:1024px){
+	.featuresection{padding:3rem 15px 3rem;}
+	.laptopright{margin-left:0; margin-top:20px;}
+	header.masthead{padding-top:4rem; padding-bottom:4rem;}
+	.ratingsbg .owl-prev{left:-36px;}
+	.ratingsbg .owl-next{right:-36px;}
+}
+
+@media screen and (max-width:1023px) {
+	.dropdown-menu .dropdown .dropdown-menu {
+        margin:0;
+        border-width: 1px;
+    }
+	.navbar-light .navbar-toggler{background:#fff;}
+	.featuresection{padding:3rem 15px 3rem;}
+	header.masthead{padding-top:4rem; padding-bottom:4rem;}
+	.freetrialbtn{margin-left:0;}
+	.loginbtn{margin-left:0; margin-top:10px;}
+	.laptopright{margin-left:0; margin-top:20px;}
+	.testimonialbg{padding:2rem 5rem 2rem; min-height:inherit;}
+	.clientsection{padding:2rem 5rem 2rem;}
+	.carouselsection{margin-top:0;}
+	.premiumsection{padding:2rem 15px;}
+	.footleft p{margin-bottom:20px;}
+	.rightformsection{background-size:cover;}
+	
+  .eqWidth{display:block; float:left; margin-bottom:25px; border-bottom:2px solid rgba(69,71,80,.1); width:100%;}
+  .flex_row{display:block;}
+  #pricingSection .planHolder.popular .planFeature > small{top:0;}
+  #pricingSection .planHolder.popular{box-shadow:none; -webkit-box-shadow:none;}
+  #pricingSection .planHolder.popular::after{display:none;}
+  #pricingSection .planHolder.popular .planName{margin-top:20px;}
+}
+
+
+@media screen and (max-width: 767px) {
+   .mainnavigation .navbar{padding:.5rem 15px;}
+   .testimonialbg{padding:2rem 15px 2rem;}
+   .carouselsection .owl-theme .owl-nav{display:none;}
+   .carouselsection .owl-carousel .owl-nav.disabled{display:none;}
+   .carouselsection .owl-theme .owl-dots{display:block;}
+   .carouselsection{padding:2rem 15px;}
+   .clientsection{padding:2rem 15px;}
+   #pricingSection{margin-top:0;}
+   .footmdl .butnew{margin-bottom:20px;}
+   .footlast h3{margin-top:20px;}
+   .footer{padding:2rem 15px 2rem;}
+   .footertop h3{font-size:24px;}
+   .footertop h3 br{display:none;}
+   .premiumsection h3{font-size:24px;}
+   .premiumsection h4, .featuresection h4{font-size:20px;}
+   .testimonialbg h3, .clientsection h3, .featuresection h3{font-size:24px;}
+   header.masthead h1{font-size:24px;}
+   .showcase-text{padding:0px 15px !important}
+   .guidesection{margin-top:20px;}
+   .guidecontentarea .newsection{padding:5rem 15px;}
+   .freetrialsection{padding-top:2rem; padding-bottom:2rem;}
+   .rightformsection{padding:1rem 15px;}
+   .leftformsection{padding:15px;}
+   .leftformsection h3 br{display:none;}
+   .formsection li{display:block; text-align:center; margin-bottom:8px;}
+   
+  .eqWidth{display:block; float:left; margin-bottom:25px; border-bottom:2px solid rgba(69,71,80,.1);}
+  .flex_row{display:block;}
+  #pricingSection .planHolder.popular .planFeature > small{top:0;}
+  #pricingSection .planHolder.popular{box-shadow:none; -webkit-box-shadow:none;}
+  #pricingSection .planHolder.popular::after{display:none;}
+  #pricingSection .planHolder.popular .planName{margin-top:20px;}
+}
+
+
+@media screen and (max-width:479px){
+.trialbtn{display:block; margin-bottom:10px;}
+.prodctbtn{display:block;}
+.btmbtn{margin-top:0;}
+header.masthead{padding-top:2rem; padding-bottom:2rem;}
+}
